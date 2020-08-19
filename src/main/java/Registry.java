@@ -16,7 +16,7 @@ public class Registry {
     public void setIDoctor(IDoctor idoc) {
         this.idoc = idoc;
     }
-
+//
     public void issue_direction() {
         System.out.println("Направление выдано");
         idoc.direct();
